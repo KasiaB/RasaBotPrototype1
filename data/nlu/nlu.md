@@ -365,9 +365,6 @@
 - transfer to a human
 - Please give me to a human
 
-## intent:test
-- a kuku
-
 
 ## synonym:credit
 - credit card
