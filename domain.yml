@@ -1,6 +1,7 @@
 session_config:
   session_expiration_time: 0
   carry_over_slots_to_new_session: true
+
 intents:
 - transfer_money:
     use_entities: []
@@ -41,6 +42,7 @@ entities:
 - number
 - account_type
 - handoff_to
+
 slots:
   PERSON:
     type: unfeaturized
@@ -92,6 +94,7 @@ slots:
     type: unfeaturized
   handoff_to:
     type: unfeaturized
+
 responses:
   utter_ask_transfer_form_amount_of_money:
   - text: How much money do you want to transfer?
@@ -206,6 +209,7 @@ responses:
         \n- Pay off my credit card
         \n- What did I spend at Target last month?
         \n- I need to transfer money"
+
 actions:
 - action_account_balance
 - action_session_start
@@ -214,6 +218,7 @@ actions:
 - action_recipients
 - action_handoff
 - action_handoff_options
+
 forms:
 - cc_payment_form
 - transfer_form
